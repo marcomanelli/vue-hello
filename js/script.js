@@ -7,10 +7,12 @@ Bonus:
 const app = new Vue({
     el: '#app',
     data: {
-      message: 'Messaggio in h1'
+      message: 'Messaggio in h1',
+      miaClasse: 'black'
     },
     methods: {
       testoBlu: function() {
+        miaClasse: 'blu'
       }
     }
   })
