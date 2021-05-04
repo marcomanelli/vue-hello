@@ -11,7 +11,6 @@ const app = new Vue({
     },
     methods: {
       testoBlu: function() {
-        this.classList.add('blu')
       }
     }
   })
