@@ -11,8 +11,8 @@ const app = new Vue({
       miaClasse: 'black'
     },
     methods: {
-      testoBlu: function() {
-        miaClasse: 'blu'
+      testo: function(classe) {
+        this.miaClasse = classe
       }
     }
   })
